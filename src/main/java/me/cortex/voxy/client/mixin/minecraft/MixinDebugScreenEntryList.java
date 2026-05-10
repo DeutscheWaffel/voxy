@@ -3,7 +3,7 @@ package me.cortex.voxy.client.mixin.minecraft;
 import me.cortex.voxy.client.DebugEntries;
 import net.minecraft.client.gui.components.debug.DebugScreenEntryList;
 import net.minecraft.client.gui.components.debug.DebugScreenEntryStatus;
-import net.minecraft.resources.Identifier;
+import net.minecraft.util.Identifier;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;

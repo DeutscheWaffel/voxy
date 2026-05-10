@@ -8,7 +8,7 @@ import net.caffeinemc.mods.sodium.api.config.option.*;
 import net.caffeinemc.mods.sodium.api.config.structure.*;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.contents.TranslatableContents;
-import net.minecraft.resources.Identifier;
+import net.minecraft.util.Identifier;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.*;

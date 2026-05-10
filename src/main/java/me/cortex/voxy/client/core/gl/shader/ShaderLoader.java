@@ -1,7 +1,7 @@
 package me.cortex.voxy.client.core.gl.shader;
 
 
-import net.minecraft.resources.Identifier;
+import net.minecraft.util.Identifier;
 import org.apache.commons.io.IOUtils;
 
 import java.io.BufferedReader;

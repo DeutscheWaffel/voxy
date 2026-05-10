@@ -8,7 +8,7 @@ import com.google.gson.stream.JsonWriter;
 import me.cortex.voxy.common.world.WorldEngine;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.Identifier;
+import net.minecraft.util.Identifier;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.dimension.DimensionType;
 import org.jetbrains.annotations.NotNull;
