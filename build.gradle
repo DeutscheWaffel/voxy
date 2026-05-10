@@ -1,5 +1,7 @@
-apply plugin: 'net.fabricmc.fabric-loom'
-apply plugin: 'maven-publish'
+plugins {
+    id 'fabric-loom' version '1.7.4'
+    id 'maven-publish'
+}
 def INCLUDE_OTHER_ARCHS = "true".equalsIgnoreCase(project.findProperty("includeOtherArchs"))
 
 def isInGHA = System.getenv("GITHUB_ACTIONS") == "true"

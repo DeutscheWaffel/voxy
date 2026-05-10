@@ -2,7 +2,14 @@
 # Gradle
 .gradle/
 build/
-.libs/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
 
 # Dependencies
 libs/
@@ -13,20 +20,9 @@ libs/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# IDE
-.idea/
-.vscode/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Archives
-*.zip
-*.tar.gz
-*.jar
-*.war
-*.ear
-```
+# Temporary files
+*.tmp
+*.swp
+*~
