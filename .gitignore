@@ -1,7 +1,32 @@
-# Project exclude paths
-/.gradle/
-/.idea/
-/build/
-/run/
-/out/
-/logs/
+```
+# Gradle
+.gradle/
+build/
+.libs/
+
+# Dependencies
+libs/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar.gz
+*.jar
+*.war
+*.ear
+```
